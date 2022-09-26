@@ -1,0 +1,40 @@
+* {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  width: 100vw;
+  height: 100vh;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  padding: 50px;
+}
+
+.startButton {
+  margin: 10px;
+  width: 60px;
+  height: 30px;
+  background-color: #84dcf4;
+}
+
+form {
+  border: 1px solid red;
+  width: 200px;
+  height: 100px;
+  padding: 10px;
+  background-color: white;
+}
+
+textarea {
+  width: 80%;
+  height: 100%;
+}
+/*# sourceMappingURL=style.css.map */
