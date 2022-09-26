@@ -1,0 +1,33 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    flex-direction: row;
+    padding: 50px;
+}
+
+.startButton {
+    margin: 10px;
+    width: 60px;
+    height: 30px;
+    background-color: rgb(132, 220, 244);
+}
+
+form {
+    border: 1px solid red;
+    width: 200px;
+    height: 100px;
+    padding: 10px;
+    background-color: white;
+}
+
+textarea {
+    width: 80%;
+    height: 100%;
+}
